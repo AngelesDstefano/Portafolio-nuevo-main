@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header class="navegation-header">
+        <nav class="navegation-nav">
+            <ul class="navegation-ul" id="menu">
+                <li><a href="#home" class="home__menu">Home</a></li>
+                <li><a href="#about-me" class="home__menu">Acerca de mi</a></li>
+                <li><a href="#my-abilities" class="home__menu">Mis habilidades</a></li>
+                <li><a href="#porfolio" class="home__menu">Portafolio</a></li>
+                <li><a href="#contacto" class="home__menu">Contacto</a></li>
+            </ul>
+            <div id="icon__burger" class="icon__burger icon__burger-show">
+                <img src="./img/hamburguesa-menu.png" class="hamburguesa-menu" alt="">
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="bio_home">
+        <div class="titles_home">
+            <h1 class="title-name_home">ANGELES AILEN D'STEFANO</h1>
+            <h2 class="title-frontend_home">DESARROLLADOR FRONTEND</h2>
+            <div>
+                <div class="bio-contacto_home">
+                    <a target="_blank" href="https://www.linkedin.com/in/angeles-d-stefano-b25b33241/"
+                        class="navegation-contactame">Contactame</a>
+                </div>
+    </section>
+    <br><br>
+    <section id="about-me" class="bio_about-me">
+        <img src="./img/about-me.png" alt="jane-doe" loading="lazy" class="bio-img_about-me" />
+        <div class="bio">
+            <h2 class="bio_title">Acerca de mi</h2>
+            <p class="bio_text">Me distingo por mi capacidad, de ser una persona responsable, dedicada,
+                colaboradora, sociable, autocritica y adaptable a cualquier circunstancia,
+                sobre todo, con muchas ganas de seguir mejorando y sumando nuevos conocimientos.
+                busco poder participar en muchos mas proyectos en equipo, como tambien
+                estoy dispuesta a hacerlo por mi misma.
+            </p>
+        </div>
+    </section>
+    <section id="my-abilities" class="abilities">
+        <h2 class="bio_title">Mis hablilidades</h2>
+        <div class="contenedor-abilities">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="./img/html-5--v1.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./img/css3.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./img/javascript-logo-4.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="./img/react.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./img/Icono-git.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
+    </section>
+
+    <section class="porfolio" id="porfolio">
+        <h2 class="porfolio_title">Portafolio</h2>
+            <div class="tarjeta-de-porfolio">
+              <div class="cajas">
+                <img
+                  src="./img/ecommerce.png"
+                  alt="rick-and-morty"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="titulo-de-porfolio">Ecommerce</h3>
+                <p class="detalle-de-porfolio">
+                    Ecommerce que realizamos con Leandro Farias, utilizando React,
+                    Javascript, Css, Redux, React Router, Hooks Form y 
+                    Fetching de datos de la Api de Academlo
+                </p>
+                <a  href="https://e-commerce-react-it.netlify.app/" target="_blank" class="enlace-de-netlify">Echale un vistazo!</a>
+              </div>
+
+              <div class="cajas">
+                <img
+                  src="./img/pokemox.png"
+                  alt="netflic-clone"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="titulo-porfolio">Pokedex</h3>
+                <p class="detalles-porfolio">
+                    Mi proyecto de la Pokedex, que realice en Academlo, usando React, css,
+                    js y html, donde también nos inicializamos en Redux y Router.
+                </p>
+                <a href="https://singular-gaufre-9c5ba2.netlify.app" target="_blank" class="netlify-link">Echale un vistazo!</a>
+              </div>
+              
+              <div class="cajas">
+                <img
+                  src="./img/Rick and Morty.png"
+                  alt="greeny-earth"
+                  loading="lazy"
+                  class="project-pic"
+                />
+                <h3 class="titulo-de-porfolio">Rick and Morty</h3>
+                <p class="detalles-de-porfolio">
+                    Proyecto que realice consumiendo la Api de “Rick and Morty” para desplegar
+                    la información según la locación de forma random o por el buscador.
+                    para poder ingresar tiene que poner un numero del 1 al 126.
+                </p>
+                <a href="https://timely-gecko-4830f9.netlify.app" target="_blank" class="enlace-de-porfolio">Echale un vistazo!</a>
+              </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="sociales">
+            <a href="https://www.linkedin.com/in/angeles-d-stefano-b25b33241/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/AngelesDstefano?tab=repositories" target="_blank"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://app.netlify.com/teams/angelesdstefano/overview" target="_blank"><i
+                    class="fa-brands fa-git-alt"></i></a>
+        </div>
+    </section>
+   
+    <script src="./main.js"></script>
+</body>
+
+</html>
